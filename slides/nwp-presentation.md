@@ -57,7 +57,7 @@ gegebenen Anforderungen | Anton Klüver & Rico Ukro"
 
 <!-- _footer: "" -->
 
-![bg left:40% 80%](res/ba_dresden_logo.svg?)
+![bg left:40% 80%](res/logo_DHSN.svg?)
 
 # Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken unter gegebenen Anforderungen
 
