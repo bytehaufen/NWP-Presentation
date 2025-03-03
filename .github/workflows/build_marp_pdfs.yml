@@ -64,4 +64,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add pdfs/
           git commit -m "github-bot: Build PDFs from Marp slides"
-          git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/bytehaufen/DSDS-Presentation.git HEAD:build
+          git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/bytehaufen/NWP-Presentation.git HEAD:build
