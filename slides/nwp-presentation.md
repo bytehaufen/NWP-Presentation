@@ -80,7 +80,6 @@ von Anton Klüver und Rico Ukro
 
 ### Implementierung von GPU-Workload
 
-
 Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Netzwerken vor, mit folgenden Anforderungen:
 
 - 2 Seminargruppen á 25 Studenten gleichzeitig, Jupyter
@@ -93,14 +92,12 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-5x 
-https://www.ebay.de/itm/166955662024
+5x
+<https://www.ebay.de/itm/166955662024>
 
-Menge | Produkt | Preis | Link
-- | - | - | -
-5 | NVIDIA Tesla H100 80GB SXM5 PCIE | 20.480,00 | [Ebay (10.04.20205)](https://www.ebay.de/itm/166955662024)
-
-
+| Menge | Produkt                          | Preis     | Link                                                       |
+| ----- | -------------------------------- | --------- | ---------------------------------------------------------- |
+| 5     | NVIDIA Tesla H100 80GB SXM5 PCIE | 20.480,00 | [Ebay (10.04.20205)](https://www.ebay.de/itm/166955662024) |
 
 ---
 
