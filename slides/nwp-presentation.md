@@ -58,16 +58,28 @@ footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung m
 
 ![bg left:40% 80%](res/logo_DHSN.svg?)
 
-# Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken unter gegebenen Anforderungen
+# Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken
 
 
 von Anton Klüver und Rico Ukro
 
 ---
 
+# TODO
+
+- Einpacken und Schleife drum machen
+
+---
+
+# Agenda
+
+- 
+
 ---
 
 ---
+
+# Start of old slides as example
 
 ---
 # Agenda
