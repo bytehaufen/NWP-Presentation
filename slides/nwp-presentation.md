@@ -92,12 +92,11 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-5x
-<https://www.ebay.de/itm/166955662024>
+## Benötigte Hardware
 
 | Menge | Produkt                          | Preis     | Link                                                       |
 | ----- | -------------------------------- | --------- | ---------------------------------------------------------- |
-| 5     | NVIDIA Tesla H100 80GB SXM5 PCIE | 20.480,00 | [Ebay (10.04.20205)](https://www.ebay.de/itm/166955662024) |
+| 5     | NVIDIA Tesla H100 80GB SXM5 PCIE | 20.480,00 | [Ebay (10.03.20205)](https://www.ebay.de/itm/166955662024) |
 | 2 | AMD EPYC™ 9745 | 7.489,00 | [Servertronic (10.03.2025)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237) | 
 
 ---
