@@ -4,8 +4,7 @@ theme: default
 paginate: true
 transition: overlap
 math: katex
-footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken unter
-gegebenen Anforderungen | Anton Klüver & Rico Ukro"
+footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken | Anton Klüver & Rico Ukro"
 ---
 
 <!-- markdownlint-disable MD001 MD004 MD009 MD012 MD013 MD019 MD022 MD024 MD032 MD033 MD041 -->
