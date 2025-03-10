@@ -60,28 +60,43 @@ footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung m
 
 # Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken
 
-
 von Anton Klüver und Rico Ukro
 
 ---
 
-# TODO
+## TODO
 
-- Einpacken und Schleife drum machen
+- [ ] Einpacken und Schleife drum machen
+
+---
+
+## Agenda
+
+- Aufgabenstellung
 
 ---
 
-# Agenda
+## Aufgabenstellung
 
-- 
+### Implementierung von GPU-Workload
 
----
+
+Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Netzwerken vor, mit folgenden Anforderungen:
+
+- 2 Seminargruppen á 25 Studenten gleichzeitig, Jupyter
+- Ressourcen pro Student
+  - 16GB Arbeitsspeicher
+  - 4 CPU-Cores
+  - 8GB GPU-Speicher
+  - 250 GB HDD / SSD
+- Nutzungshorizont: 5 Jahre
 
 ---
 
 # Start of old slides as example
 
 ---
+
 # Agenda
 
 - Begriffsklärung und Bedeutung von Softwaretests
@@ -116,8 +131,7 @@ Zu Durchführung von Softwaretests:
 
 # Begriffsklärung und Bedeutung von Softwaretests
 
-* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
-
+- > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
 
 <!--
 - Evaluierung und Verifizierung von Software
@@ -133,9 +147,10 @@ Zu Durchführung von Softwaretests:
 
 ---
 
-##  Fallstudien: Historische Beispiele
+## Fallstudien: Historische Beispiele
 
 - 1985: Kanadische Strahlentherapie Therac-25
+
   - Softwarefehler führte zu tödlicher Strahlendosis
   - 3 Verletzte, 3 Tote
 
@@ -148,6 +163,7 @@ Zu Durchführung von Softwaretests:
 ## Fallstudien: Historische Beispiele
 
 - 1996: US-Bank Softwarefehler
+
   - 823 Kunden fälschlicherweise 920 Millionen US-Dollar gutgeschrieben
 
 - 2015: Bloomberg-Terminal Absturz in Londom
@@ -224,6 +240,7 @@ o if status_code == 200:
 ---
 
 ### Warum ist Testing in diesem Kontext wichtig?
+
 <ul data-marpit-fragment="1">
   <li>Fehlererkennung: API antwortet korrekt, Fehler werden richtig gehandhabt</li>
   <li>Fehlertoleranz: Anwendung reagiert robust auf verschiedene Antwortcodes und Netzwerkausfälle</li>
@@ -258,7 +275,8 @@ o if status_code == 200:
 
 <div class="centered source">
 
-  Quelle: [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+Quelle: [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+
 </div>
 
 ---
@@ -312,7 +330,8 @@ o if status_code == 200:
 
 <div class="centered source">
 
-  Quelle: [https://dancerscode.com/posts/unit-tests/](https://dancerscode.com/posts/unit-tests/)
+Quelle: [https://dancerscode.com/posts/unit-tests/](https://dancerscode.com/posts/unit-tests/)
+
 </div>
 
 <!--
@@ -361,13 +380,13 @@ Draw to whiteboard:
 
 <div class="centered source">
 
-  Quelle: [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
+Quelle: [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
+
 </div>
 
 ---
 
 ## Systemtests
-
 
 - Testen das gesamte System als Ganzes
 - Ziel: Sicherstellen, dass die Software als Gesamtsystem funktioniert und sicher ist
@@ -384,7 +403,8 @@ Draw to whiteboard:
 </div>
 <div class="centered source">
 
-  Quelle: [https://dancerscode.com/posts/system-testing/](https://dancerscode.com/posts/system-testing/)
+Quelle: [https://dancerscode.com/posts/system-testing/](https://dancerscode.com/posts/system-testing/)
+
 </div>
 
 <!-- System Test deckt sowohl die Anwendung als auch alle Abhängigkeiten ab -->
@@ -413,12 +433,14 @@ Draw to whiteboard:
 </div>
 <div class="centered source">
 
-  Quelle: [https://dancerscode.com/posts/system-testing/](https://www.code-intelligence.com/what-is-fuzz-testing)
+Quelle: [https://dancerscode.com/posts/system-testing/](https://www.code-intelligence.com/what-is-fuzz-testing)
+
 </div>
 
 <!--
 Static Analysis and Code Fuzzing in the V-model
 -->
+
 ---
 
 ## Fuzz-Tests - Fuzzing
@@ -457,6 +479,7 @@ Arten von Fuzz-Tests:
 ## Penetrationstests
 
 Unterschiedliche Angriffsvektoren:
+
 - Network
 - Web Application
 - Client Side
@@ -518,14 +541,13 @@ Phasen eines Penetration Tests:
 
 ---
 
-## Rolle der Testautomatisierung in einer CI/CD-Pipeline 
+## Rolle der Testautomatisierung in einer CI/CD-Pipeline
 
 - **Continuous Integration (CI)**:
 
   - Automatisiert Tests bei jedem Integrationsschritt
   - Früherkennung von Bugs
   - Führt Unit-Tests, Integrationstests und andere automatisierte Tests aus
-
 
 - **Continuous Delivery/Deployment (CD)**:
 
@@ -544,29 +566,30 @@ Phasen eines Penetration Tests:
   - Beschleunigt Entwicklungs- und Release-Zyklen
   - Verbessert Softwarequalität und Zuverlässigkeit
 
-
 ---
 
 ## Nutzenanalyse von Tests (Test Benefit Analysis)
 
-- **Fehlererkennung:**  
-  - Frühzeitige Erkennung von Fehlern reduziert spätere Korrekturkosten  
+- **Fehlererkennung:**
+
+  - Frühzeitige Erkennung von Fehlern reduziert spätere Korrekturkosten
   - Höhere Testabdeckung minimiert das Risiko von unentdeckten Fehlern
 
-- **Qualitätssteigerung:**  
-  - Regelmäßige Tests verbessern die Code-Qualität und Systemstabilität  
+- **Qualitätssteigerung:**
+  - Regelmäßige Tests verbessern die Code-Qualität und Systemstabilität
   - Sicherstellung, dass neue Features keine alten Funktionen beeinträchtigen
 
 ---
 
 ## Nutzenanalyse von Tests (Test Benefit Analysis)
 
-- **Effizienz:**  
-  - Automatisierte Tests beschleunigen Entwicklungsprozesse  
+- **Effizienz:**
+
+  - Automatisierte Tests beschleunigen Entwicklungsprozesse
   - Spart Zeit und Ressourcen durch frühzeitige Validierung
 
-- **Vertrauen in Software:**  
-  - Gut getestete Software schafft Vertrauen bei Entwicklern, Testern und Nutzern  
+- **Vertrauen in Software:**
+  - Gut getestete Software schafft Vertrauen bei Entwicklern, Testern und Nutzern
   - Höhere Zuverlässigkeit und geringeres Risiko von Produktionsausfällen
 
 ---
@@ -590,7 +613,6 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 ## Entwicklung und Implementierung von Tests
 
 ##### Beispiel: Addierer
-
 
 ```python
 # adder.py
@@ -643,7 +665,7 @@ Nutzen Sie regelmäßig Softwaretests?
 
 ---
 
-##  Lernkontrolle und Wiederholung mit praktischen Übungen zur Implementierung von Tests
+## Lernkontrolle und Wiederholung mit praktischen Übungen zur Implementierung von Tests
 
 <style scoped>
   a {
