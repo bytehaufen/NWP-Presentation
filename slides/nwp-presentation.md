@@ -67,6 +67,7 @@ von Anton Klüver und Rico Ukro
 ## TODO
 
 - [ ] Einpacken und Schleife drum machen
+- [ ] Einrichtung der Thin-Clients
 
 ---
 
@@ -92,12 +93,31 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-## Benötigte Hardware
+## Anforderungen Thin-Clients
 
-| Menge | Produkt                          | Preis     | Link                                                       |
-| ----- | -------------------------------- | --------- | ---------------------------------------------------------- |
-| 5     | NVIDIA Tesla H100 80GB SXM5 PCIE | 20.480,00 | [Ebay (10.03.20205)](https://www.ebay.de/itm/166955662024) |
-| 2 | AMD EPYC™ 9745 | 7.489,00 | [Servertronic (10.03.2025)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237) | 
+- NixOS
+- VMWare Horizon Client
+
+---
+
+## Anforderungen Server
+
+### Software
+
+- VMWare um VDIs (Virtual Desktop Infrastructure) bereitzustellen
+- OS (NixOS)
+
+### Hardware
+
+- 5x NVIDIA Tesla H100 80GB SXM5 PCIE 20.480,00 [Ebay (10.03.20205)](https://www.ebay.de/itm/166955662024)
+- 2x AMD EPYC™ 9745 7.489,00 [Servertronic (10.03.2025)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237)
+
+---
+
+## Software - VM
+
+- Python
+- Jupyter Notebook
 
 ---
 
