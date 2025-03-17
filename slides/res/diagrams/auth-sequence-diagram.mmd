@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant TC as Thin Client (NixOS/Linux)
+    participant LDAP as LDAP-Server (Authentifizierung)
+    participant VM as Windows-VM (KVM/QEMU)
+    participant ST as Shared Storage (SMB/CIFS)
+
+    TC->>LDAP: Nutzeranmeldung (Benutzername & Passwort)
+    LDAP-->>TC: Authentifizierung erfolgreich
+    TC->>VM: Automatische RDP-Verbindung via FreeRDP (Credentials)
+    VM->>LDAP: Nutzer-Authentifizierung bestätigen
+    LDAP-->>VM: Authentifizierung erfolgreich
+    VM->>ST: Nutzerprofil und Speicher einbinden (SMB-Share)
+    ST-->>VM: Speicher & Profil eingebunden
+    VM-->>TC: Benutzeroberfläche (Windows Desktop) bereitgestellt

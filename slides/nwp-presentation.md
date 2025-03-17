@@ -66,8 +66,8 @@ von Anton Klüver und Rico Ukro
 
 ## TODO
 
-- [ ] Einpacken und Schleife drum machen
 - [ ] Einrichtung der Thin-Clients
+- [ ] Redundanz - Datensicherheit?
 
 ---
 
@@ -105,13 +105,14 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ### Software
 
-- [QEMU](https://www.qemu.org/) 
+- [QEMU](https://www.qemu.org/)
 - [NixOS](https://nixos.org/)
 
 ### Hardware
 
 - 5x NVIDIA Tesla H100 80GB SXM5 PCIE [Ebay (10.03.20205, 20.480,00€)](https://www.ebay.de/itm/166955662024)
 - 2x AMD EPYC™ 9745 [Servertronic (10.03.2025, 7.489,00€)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237)
+
 ---
 
 ## Anforderungen Thin-Clients
@@ -124,6 +125,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 ### Hardware
 
 - Mini-PC [Office-Partner (17.03.2025, 273,88€)](https://www.office-partner.de/ecs-elitegroup-95-696-mh2216-24049213)
+
 ---
 
 ## Anforderungen VM
@@ -140,8 +142,8 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 ### Architektur
 
 - Server: NixOS als Host-OS
--- QEMU/KVM als Hypervisor
--- Windows-VMs mit VirtIO-Treibern und GPU-Passthrough
+  - QEMU/KVM als Hypervisor
+  - Windows-VMs mit VirtIO-Treibern und GPU-Passthrough
 - Clients: FreeRDP-Verbindung zu Windows-VMs
 - Anmeldesicherheit durch auf Server hinterlegter DB
 
@@ -164,6 +166,22 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 - Anbindung in Netzwerk über SMB-Protokoll
 - Unabhängig von VM-Instanzen
 - SMB-Speicher angeknüpft an Anmeldung
+
+---
+
+## Entwurf
+
+### Ablauf Anmeldevorgang
+
+<div class="centered">
+  <img src="res/diagrams/auth-sequence-diagram.png?" alt="Sequenz Diagramm Authentifizierung" style="width: 100%;"/>
+</div>
+
+<div class="centered source">
+
+Quelle: Eigene Darstellung
+
+</div>
 
 ---
 
