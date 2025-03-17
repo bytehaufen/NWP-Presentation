@@ -198,7 +198,7 @@ Quelle: Eigene Darstellung
 
 ## Entwurf
 
-### Proxy Server
+### Proxyserver
 
 - Lastverteilung
 - Auslastung des Servers 1 auf bis zu 90%
