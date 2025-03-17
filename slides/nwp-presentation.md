@@ -185,6 +185,19 @@ Quelle: Eigene Darstellung
 
 ---
 
+## Physische Infrastruktur – Redundanz- und Hochverfügbarkeitskonzept
+
+| Komponente                | Serverraum 1                   | Serverraum 2                   |
+| ------------------------- | ------------------------------ | ------------------------------ |
+| **Compute-Server**        | Server 1 (GPU, CPU, RAM)       | Server 2 (GPU, CPU, RAM)       |
+| **Stromversorgung (USV)** | USV-Anlage 1                   | USV-Anlage 2                   |
+| **Netzwerkanbindung**     | Netzwerk-Switch 1              | Netzwerk-Switch 2              |
+| **Shared Storage**        | Primäres SAN/NAS-System        | Backup/Replikationssystem      |
+| **Klimatisierung**        | Separat & unabhängig           | Separat & unabhängig           |
+| **Verkabelung**           | Glasfaser redundant (getrennt) | Glasfaser redundant (getrennt) |
+
+---
+
 # Start of old slides as example
 
 ---
