@@ -206,6 +206,25 @@ Quelle: Eigene Darstellung
 
 ---
 
+## Entwurf
+
+### Proxy Server
+
+- Lastverteilung
+- Auslastung des Servers 1 auf bis zu 90%
+- Prävention eines gleichzeitigen Verschleiß beider Server
+
+---
+
+## Entwurf
+
+### Storageserver
+
+- 1x Synology Rackstation RS422+ [Cyberport (17.03.2025, 768,40€)](https://www.cyberport.de/pc-und-zubehoer/nas-das/nas-systeme/synology/pdp/3f15-2kk/synology-rackstation-rs422-nas-system-4-bay.html#description)
+- 4x WD Red Pro 4 TB [Western Digital (17.03.2025, 173,99€)](https://www.westerndigital.com/de-de/products/outlet/internal-drives/wd-red-pro-sata-hdd?sku=WD4003FFBX)
+
+---
+
 # Start of old slides as example
 
 ---
