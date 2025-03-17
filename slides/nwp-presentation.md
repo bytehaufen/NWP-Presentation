@@ -99,13 +99,32 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ## Idee
 
-- Zentraler Server mit Datenhaltung und Rechenleistung
+- Zentrale Server mit Datenhaltung und Rechenleistung
 - Thin-Clients an Arbeitsplätzen
 - Remotezugriff auf virtuellen Desktop
 
 ---
 
-## Anforderungen Server
+## Anforderungen
+
+- Zentral wartbares und verteilbares System (Server-Client)
+  - Verteilung auf zwei Server (jeweils ein Serverraum)
+- Ausfallsicherheit
+- Datensicherheit, Datenschutz
+- Technische Anforderungen laut Lastenheft
+- Virtuelle Betriebssysteme für alle Studiengänge nutzbar
+- Proxyserver
+  - Lastverteilung
+  - Auslastung des Servers 1 auf bis zu 90%
+  - Prävention des gleichzeitigen Verschleißes beider Server
+
+---
+
+## Entwurf - Computeserver
+
+- Vorgeschalteter Proxyserver
+- QEMU als Hypervisor
+- Windows-VMs mit VirtIO-Treibern und GPU-Passthrough
 
 ### Software
 
@@ -119,7 +138,29 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-## Anforderungen Thin-Clients
+## Entwurf - Storageserver
+
+- Persistenter Speicher für Nutzer auf dediziertem Server
+- Anbindung in Netzwerk über SMB-Protokoll
+- Unabhängig von VM-Instanzen
+- SMB-Speicher angeknüpft an Anmeldung
+
+### Software
+
+- [TrueNAS Scale](https://www.truenas.com/truenas-scale/)
+
+### Hardware
+
+- 1x Synology Rackstation RS422+ [Cyberport (17.03.2025, 768,40€)](https://www.cyberport.de/pc-und-zubehoer/nas-das/nas-systeme/synology/pdp/3f15-2kk/synology-rackstation-rs422-nas-system-4-bay.html#description)
+- 4x WD Red Pro 4 TB [Western Digital (17.03.2025, 173,99€)](https://www.westerndigital.com/de-de/products/outlet/internal-drives/wd-red-pro-sata-hdd?sku=WD4003FFBX)
+
+---
+
+## Entwurf - Thin-Clients
+
+- Einfach verteilbar und ersetzbar
+- Keine hohen Anforderungen
+- Authentifizierung an Computeserver mittels LDAP (OpenLDAP)
 
 ### Software
 
@@ -132,44 +173,15 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-## Anforderungen VM
+## Entwurf - VM
 
 ### Software
 
+- Windows
 - Python
 - Jupyter Notebook
-
----
-
-## Entwurf
-
-### Architektur
-
-- Server: NixOS als Host-OS
-  - QEMU/KVM als Hypervisor
-  - Windows-VMs mit VirtIO-Treibern und GPU-Passthrough
-- Clients: FreeRDP-Verbindung zu Windows-VMs
-- Anmeldesicherheit durch auf Server hinterlegter DB
-
----
-
-## Entwurf
-
-### Sicherheit
-
-- Authentifizierung mittels LDAP
-- OpenLDAP
-
----
-
-## Entwurf
-
-### Nutzerspeicher
-
-- Persistenter Speicher für Nutzer auf dediziertem Server
-- Anbindung in Netzwerk über SMB-Protokoll
-- Unabhängig von VM-Instanzen
-- SMB-Speicher angeknüpft an Anmeldung
+- Office-Suite
+- Usw.
 
 ---
 
@@ -193,25 +205,6 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 | **Stromversorgung (USV)** | USV-Anlage 1             | USV-Anlage 2              |
 | **Netzwerkanbindung**     | Netzwerk-Switch 1        | Netzwerk-Switch 2         |
 | **Shared Storage**        | Primäres SAN/NAS-System  | Backup/Replikationssystem |
-
----
-
-## Entwurf
-
-### Proxyserver
-
-- Lastverteilung
-- Auslastung des Servers 1 auf bis zu 90%
-- Prävention eines gleichzeitigen Verschleiß beider Server
-
----
-
-## Entwurf
-
-### Storageserver
-
-- 1x Synology Rackstation RS422+ [Cyberport (17.03.2025, 768,40€)](https://www.cyberport.de/pc-und-zubehoer/nas-das/nas-systeme/synology/pdp/3f15-2kk/synology-rackstation-rs422-nas-system-4-bay.html#description)
-- 4x WD Red Pro 4 TB [Western Digital (17.03.2025, 173,99€)](https://www.westerndigital.com/de-de/products/outlet/internal-drives/wd-red-pro-sata-hdd?sku=WD4003FFBX)
 
 ---
 
