@@ -110,7 +110,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ### Hardware
 
-- 10x Nvidia PNY 40GB A100 [SMB IT-Solution](https://smb-it-solution.com/de/nvidia-pny-40gb-a100-pcie-hbm2-tcsa100m-pb.html)
+- 10x Nvidia PNY 40GB A100 [SMB IT-Solution (17.03.2025, 11.995,95€)](https://smb-it-solution.com/de/nvidia-pny-40gb-a100-pcie-hbm2-tcsa100m-pb.html)
 - 2x AMD EPYC™ 9745 [Servertronic (10.03.2025, 7.489,00€)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237)
 
 ---
@@ -193,8 +193,6 @@ Quelle: Eigene Darstellung
 | **Stromversorgung (USV)** | USV-Anlage 1                   | USV-Anlage 2                   |
 | **Netzwerkanbindung**     | Netzwerk-Switch 1              | Netzwerk-Switch 2              |
 | **Shared Storage**        | Primäres SAN/NAS-System        | Backup/Replikationssystem      |
-| **Klimatisierung**        | Separat & unabhängig           | Separat & unabhängig           |
-| **Verkabelung**           | Glasfaser redundant (getrennt) | Glasfaser redundant (getrennt) |
 
 ---
 
