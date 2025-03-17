@@ -95,8 +95,14 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ## Anforderungen Thin-Clients
 
+### Software
+
 - NixOS
 - VMWare Horizon Client
+
+### Hardware
+
+- Mini-PC [Office-Partner (17.02.2025)](https://www.office-partner.de/ecs-elitegroup-95-696-mh2216-24049213)
 
 ---
 
