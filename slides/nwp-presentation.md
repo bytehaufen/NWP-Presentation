@@ -66,9 +66,8 @@ von Anton Klüver und Rico Ukro
 
 ## TODO
 
-- [ ] Einrichtung der Thin-Clients
-- [ ] Redundanz - Datensicherheit?
 - [ ] Quellen?
+- [ ] Altfolien entfernen
 
 ---
 
