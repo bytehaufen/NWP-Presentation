@@ -68,12 +68,16 @@ von Anton Klüver und Rico Ukro
 
 - [ ] Einrichtung der Thin-Clients
 - [ ] Redundanz - Datensicherheit?
+- [ ] Quellen?
 
 ---
 
 ## Agenda
 
 - Aufgabenstellung
+- Idee
+- Anforderungen
+- Entwurf
 
 ---
 
@@ -177,11 +181,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
   <img src="res/diagrams/auth-sequence-diagram.png?" alt="Sequenz Diagramm Authentifizierung" style="width: 100%;"/>
 </div>
 
-<div class="centered source">
-
-Quelle: Eigene Darstellung
-
-</div>
+<div class="centered source">Quelle: Eigene Darstellung</div>
 
 ---
 
