@@ -68,6 +68,8 @@ von Anton Klüver und Rico Ukro
 
 - [ ] Quellen?
 - [ ] Altfolien entfernen
+- [ ] Arbeitsspeicher
+- [ ] Sync mit Nindel-Presentation
 
 ---
 
