@@ -68,8 +68,8 @@ von Anton Klüver und Rico Ukro
 
 - [ ] Quellen?
 - [ ] Altfolien entfernen
-- [ ] Arbeitsspeicher
 - [ ] Sync mit Nindel-Presentation
+- [ ] Gesamtpreis ausrechnen
 
 ---
 
@@ -124,8 +124,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 ## Entwurf - Computeserver
 
 - Vorgeschalteter Proxyserver
-- QEMU als Hypervisor
-- Windows-VMs mit VirtIO-Treibern und GPU-Passthrough
+- QEMU als Hypervisor - Verwaltung Windows-VMs
 
 ### Software
 
@@ -136,6 +135,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 - 10x Nvidia PNY 40GB A100 [SMB IT-Solution (17.03.2025, 11.995,95€)](https://smb-it-solution.com/de/nvidia-pny-40gb-a100-pcie-hbm2-tcsa100m-pb.html)
 - 2x AMD EPYC™ 9745 [Servertronic (10.03.2025, 7.489,00€)](https://servertronic.de/index.php?subindex=1&operation=show&art=artikel&artikelnummer=1003237)
+- 14x Patriot VIPER VENOM 64GB [Mindfactory (18.03.2025, 173,84€)](https://www.mindfactory.de/product_info.php/64GB-Patriot-VIPER-VENOM-DDR5-6000-DIMM-CL36-Dual-Kit_1503728.html)
 
 ---
 
