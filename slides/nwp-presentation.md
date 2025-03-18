@@ -68,8 +68,7 @@ von Anton Klüver und Rico Ukro
 
 - [ ] Quellen?
 - [ ] Altfolien entfernen
-- [ ] Sync mit Nindel-Presentation
-- [ ] Gesamtpreis ausrechnen
+- [ ] Begriffe
 
 ---
 
@@ -152,8 +151,8 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ### Hardware
 
-- 1x Synology Rackstation RS422+ [Cyberport (17.03.2025, 768,40€)](https://www.cyberport.de/pc-und-zubehoer/nas-das/nas-systeme/synology/pdp/3f15-2kk/synology-rackstation-rs422-nas-system-4-bay.html#description)
-- 4x WD Red Pro 4 TB [Western Digital (17.03.2025, 173,99€)](https://www.westerndigital.com/de-de/products/outlet/internal-drives/wd-red-pro-sata-hdd?sku=WD4003FFBX)
+- 2x Synology Rackstation RS422+ [Cyberport (17.03.2025, 768,40€)](https://www.cyberport.de/pc-und-zubehoer/nas-das/nas-systeme/synology/pdp/3f15-2kk/synology-rackstation-rs422-nas-system-4-bay.html#description)
+- 8x WD Red Pro 4 TB [Western Digital (17.03.2025, 173,99€)](https://www.westerndigital.com/de-de/products/outlet/internal-drives/wd-red-pro-sata-hdd?sku=WD4003FFBX)
 
 ---
 
@@ -170,7 +169,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ### Hardware
 
-- Mini-PC [Office-Partner (17.03.2025, 273,88€)](https://www.office-partner.de/ecs-elitegroup-95-696-mh2216-24049213)
+- 50x Mini-PC [Office-Partner (17.03.2025, 273,88€)](https://www.office-partner.de/ecs-elitegroup-95-696-mh2216-24049213)
 
 ---
 
@@ -206,6 +205,15 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 | **Stromversorgung (USV)** | USV-Anlage 1             | USV-Anlage 2              |
 | **Netzwerkanbindung**     | Netzwerk-Switch 1        | Netzwerk-Switch 2         |
 | **Shared Storage**        | Primäres SAN/NAS-System  | Backup/Replikationssystem |
+
+---
+
+# Einmaliges Angebot
+
+**Jetzt kaufen für nur 153.994,98 €**
+
+- exklusive: USV, Switches, Server-Racks, Verkabelung, IO, Installation, etc ...
+- inklusive: 1x Tüte Datteln
 
 ---
 
