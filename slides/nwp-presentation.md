@@ -7,7 +7,7 @@ math: katex
 footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken | Anton Klüver & Rico Ukro"
 ---
 
-<!-- markdownlint-disable MD001 MD004 MD009 MD012 MD013 MD019 MD022 MD024 MD032 MD033 MD041 -->
+<!-- markdownlint-disable MD001 MD004 MD009 MD012 MD013 MD019 MD022 MD024 MD026  MD032 MD033 MD041 -->
 
 <style>
   /* Adds styling for codeblocks to add line numbers with custom engine */
@@ -209,7 +209,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ---
 
-## Und Tschüss
+## Bis Baldrian...
 
 <div class="centered">
   <img src="res/last-slide-picture.png?" alt="Tschüss" style="width: 40%;"/>
