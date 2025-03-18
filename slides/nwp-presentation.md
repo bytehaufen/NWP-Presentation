@@ -64,7 +64,7 @@ footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung m
 
 # Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken
 
-von Anton Klüver und Rico Ukro
+von Ranton und Ico
 
 ---
 
@@ -227,5 +227,6 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 ## Bis Baldrian...
 
 <div class="centered">
-  <img src="res/last-slide-picture.png?" alt="Tschüss" style="width: 40%;"/>
+  <!-- <img src="res/last-slide-picture.png?" alt="Tschüss" style="width: 40%;"/> -->
+  <img src="res/ranton_ico.webp?" alt="Tschüss" style="width: 40%;"/>
 </div>
