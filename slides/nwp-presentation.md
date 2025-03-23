@@ -147,7 +147,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 - Zentraler Speicher für Nutzerdaten
 - SMB-Anbindung unabhängig von VM-Instanzen
-- LDAP-basierte Nutzerverwaltung
+- LDAP-basierte Nutzerverwaltung - Lightweight Directory Access Protocol (OpenLDAP)
 - Tägliches Backup (inkrementell)
 
 ### Software
@@ -164,7 +164,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 ## Entwurf - Thin-Clients
 
 - Kostengünstig, wartungsarm, einfach austauschbar
-- Authentifizierung über LDAP - Lightweight Directory Access Protocol (OpenLDAP)
+- Authentifizierung über LDAP
 
 ### Software
 
