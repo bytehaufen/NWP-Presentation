@@ -97,7 +97,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ## Idee
 
-- Zentraler Server mit Datenhaltung und Rechenleistung
+- Zentrale Server mit Datenhaltung und Rechenleistung
 - Thin-Clients an Arbeitsplätzen
 - Remotezugriff auf virtuellen Desktop
 
