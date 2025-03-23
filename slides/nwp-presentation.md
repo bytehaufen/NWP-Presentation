@@ -115,7 +115,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
   - Verteilung auf zwei Server (jeweils ein Serverraum)
 - Ausfallsicherheit
 - Datensicherheit, Datenschutz
-- Technische Anforderungen laut Lastenheft
+-  Vorgegebene, technische Eigenschaften
 - Virtuelle Betriebssysteme für alle Studiengänge nutzbar
 - Proxyserver
   - Lastverteilung
