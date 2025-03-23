@@ -7,7 +7,7 @@ math: katex
 footer: "DHSN | Vorschlag eines Systems für Laborübungen für die Ausbildung mit neuronalen Netzwerken | Anton Klüver & Rico Ukro"
 ---
 
-<!-- markdownlint-disable MD001 MD004 MD009 MD012 MD013 MD019 MD022 MD024 MD026  MD032 MD033 MD041 -->
+<!-- markdownlint-disable MD001 MD004 MD009 MD012 MD013 MD019 MD022 MD024 MD026  MD032 MD033 MD036 MD041 -->
 
 <style>
   /* Adds styling for codeblocks to add line numbers with custom engine */
@@ -97,7 +97,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 
 ## Idee
 
-- Zentrale Server mit Datenhaltung und Rechenleistung
+- Zentraler Server mit Datenhaltung und Rechenleistung
 - Thin-Clients an Arbeitsplätzen
 - Remotezugriff auf virtuellen Desktop
 
@@ -120,7 +120,7 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 - Proxyserver
   - Lastverteilung
   - Auslastung des Servers 1 auf bis zu 90%
-  - Reduktion von simultanem
+  - Reduktion des simultanen Hardwareverschleißes
 - Regelmäßige Backups (täglich, inkrementell, Backup-Server im zweiten Serverraum)
 
 ---
@@ -207,8 +207,8 @@ Schlagen Sie ein System für Laborübungen für die Ausbildung mit neuronalen Ne
 | ------------------------- | ------------------- | ------------------------- |
 | **Compute-Server**        | Primär-Server       | Sekundär-Server (Standby) |
 | **Stromversorgung (USV)** | USV-Anlage 1        | USV-Anlage 2              |
-| **Netzwerkanbindung**     | Netzwerk-Switch 1   | Netzwerk-Switch 2         |
-| **Shared Storage**        | Primäres NAS-System | Backup-Server (Replikat)  |
+| **Netzwerkanbindung**     | Netzwerkswitch 1    | Netzwerkswitch 2          |
+| **Shared Storage**        | Primäres NAS-System | Backup-NAS (Replikat)     |
 
 - Automatisches Failover
 - Tägliche inkrementelle Backups
